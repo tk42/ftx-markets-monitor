@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+	<script> var exports = {}; </script>
     <title>Hello World!</title>
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
@@ -18,6 +19,10 @@
     We are using Node.js <span id="node-version"></span>, Chromium
     <span id="chrome-version"></span>, and Electron
     <span id="electron-version"></span>.
+
+	<ul>
+		{ list.map((value) => <li>{value}</li>) }
+	</ul>
 
     <!-- You can also require other files to run in this process -->
     <script src="renderer.js"></script>
