@@ -6,4 +6,3 @@ dist
 image/*/
 
 yarn.lock
-.yarnrc
