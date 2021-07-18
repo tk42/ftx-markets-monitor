@@ -1,0 +1,9 @@
+node_modules
+vendor
+
+dist
+
+image/*/
+
+yarn.lock
+.yarnrc
